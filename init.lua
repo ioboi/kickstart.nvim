@@ -646,6 +646,18 @@ require('lazy').setup({
             },
           },
         },
+        gopls = {},
+        pyright = {},
+        rust_analyzer = {},
+        ts_ls = {},
+        html = { filetypes = { 'html', 'twig', 'hbs' } },
+        tailwindcss = {},
+        texlab = {},
+        tinymist = {},
+        yamlls = {},
+        bashls = {},
+        vale_ls = {},
+        sqlls = {},
       }
 
       -- Ensure the servers and tools above are installed
