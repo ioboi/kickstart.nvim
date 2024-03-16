@@ -728,7 +728,7 @@ require('lazy').setup({
         'stylua', -- Used to format lua code
         'isort',
         'black',
-        'prettierd',
+        'prettier',
         'eslint_d',
         'pylint',
         'hadolint',
@@ -792,10 +792,11 @@ require('lazy').setup({
         -- You can use 'stop_after_first' to run the first available formatter from the list
         -- javascript = { "prettierd", "prettier", stop_after_first = true },
 
+        markdown = { 'prettier' },
         python = { 'isort', 'black' },
-        javascript = { 'prettierd' },
-        typescriptreact = { 'prettierd' },
-        typescript = { 'prettierd' },
+        javascript = { 'prettier' },
+        typescriptreact = { 'prettier' },
+        typescript = { 'prettier' },
       },
     },
   },
