@@ -623,7 +623,7 @@ require('lazy').setup({
         'stylua', -- Used to format lua code
         'isort',
         'black',
-        'prettierd',
+        'prettier',
         'eslint_d',
         'pylint',
         'hadolint',
@@ -681,10 +681,11 @@ require('lazy').setup({
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
         -- javascript = { { "prettierd", "prettier" } },
+        markdown = { 'prettier' },
         python = { 'isort', 'black' },
-        javascript = { 'prettierd' },
-        typescriptreact = { 'prettierd' },
-        typescript = { 'prettierd' },
+        javascript = { 'prettier' },
+        typescriptreact = { 'prettier' },
+        typescript = { 'prettier' },
       },
     },
   },
