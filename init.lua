@@ -657,6 +657,7 @@ require('lazy').setup({
         bashls = {},
         vale_ls = {},
         sqlls = {},
+        nixfmt = {},
       }
 
       -- Ensure the servers and tools above are installed
