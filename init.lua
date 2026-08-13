@@ -835,6 +835,9 @@ do
       local enabled_filetypes = {
         -- lua = true,
         -- python = true,
+
+        go = true,
+        zig = true,
       }
       if enabled_filetypes[vim.bo[bufnr].filetype] then
         return { timeout_ms = 500 }
