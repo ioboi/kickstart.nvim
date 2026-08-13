@@ -746,6 +746,13 @@ do
 
     stylua = {}, -- Used to format Lua code
 
+    gopls = {}, -- Go
+    rust_analyzer = {}, -- Rust
+    ts_ls = {}, -- Typescript
+    tinymist = {}, -- Typst
+    bashls = {}, -- Bash
+    zls = {}, -- Zig <3
+
     -- Special Lua Config, as recommended by neovim help docs
     lua_ls = {
       on_init = function(client)
